@@ -7,7 +7,6 @@ const ProfileList = () => {
     <div className="profile-list">
       <Profile 
         fullName="Egzon Murati" 
-        description="Developer" 
         src="https://i.imgur.com/MK3eW3As.jpg" 
       />
       <Profile 

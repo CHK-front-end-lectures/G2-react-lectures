@@ -8,9 +8,10 @@ import React from 'react'
 //   profession: 'Developer'
 // }
 
-const Profile = ({src, fullName = "Test", description = 'Senior Developer'}) => {
+const Profile = ({src, fullName = "Test", description, children}) => {
   return (
     <div className="profile">
+      {children}
       <img src={src} alt="Person" />
       <h3>{fullName}</h3>
       <p>{description}</p>
