@@ -7,8 +7,10 @@ const Item = ({name, isDone, importance}) => {
   // }
   return (
     // <li>{name} {isDone ? '✓' : ''}</li>
-    <li style={{color: (importance >= 7) ? 'red' : 'green'}}>
-      {isDone ? <del>{name} {(isDone || importance > 3) && '✓'}</del> : name}
+    <li>
+      {isDone ? <>{name} ✓</> : <>{name}</>}
+      {importance > 3 && <p>Importance: {importance}</p>}
+      {/* {isDone ? <del>{name} {(isDone || importance > 3) && '✓'}</del> : name} */}
     </li>
   )
 }
@@ -30,3 +32,4 @@ export default Todos
 1.Per cdo item qe importance e ka me te madhe se 3, shfaqni "Importance: ${vlera}"
 2. Pervec simbolit checkmark per punet e perfunduara, shfaqni simbolin X per punet e paperfunduara
 */
+// git pull - per mi marr ndryshimet prej repos ne github

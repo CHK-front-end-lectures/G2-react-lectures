@@ -3,6 +3,8 @@ import Gallery from './16-08-2023/Gallery';
 import ProfileList from './21-08-2023/ProfileList';
 import UpdatedProps from './21-08-2023/UpdatedProps';
 import Todos from './21-08-2023/Todos';
+import List from './23-08-2023/List';
+import Toolbar from './23-08-2023/Toolbar';
 
 function App() {
   return (
@@ -11,7 +13,11 @@ function App() {
       <Todos /> */}
       {/* <ProfileList> */}
       {/* <UpdatedProps /> */}
-      <Todos />
+      {/* <Todos /> */}
+
+      {/* <List /> */}
+
+      <Toolbar />
     </div>
   );
 }
