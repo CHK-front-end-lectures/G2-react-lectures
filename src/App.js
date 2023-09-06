@@ -9,6 +9,10 @@ import Form from './30-08-2023/Form';
 import ToggleLights from './30-08-2023/ToggleLights';
 import Avatar from './30-08-2023/Avatar';
 import CommaSeparator from './30-08-2023/CommaSeparator';
+import Counter from './06-09-2023/Counter';
+import TextInput from './06-09-2023/TextInput';
+import ButtonLike from './06-09-2023/ButtonLike';
+import Slider from './06-09-2023/Slider';
 
 function App() {
   return (
@@ -24,7 +28,15 @@ function App() {
       {/* <Toolbar />
       <Form /> */}
       {/* <ToggleLights /> */}
-      <CommaSeparator />
+      {/* <CommaSeparator /> */}
+      {/* <Counter />
+      <TextInput />
+
+      <ButtonLike />
+      <ButtonLike /> */}
+
+      <Slider />
+
 
     </div>
   );
