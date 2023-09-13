@@ -8,7 +8,7 @@ const MovingDots = () => {
   return (
     <div style={{position: 'relative', width: '100vw', height: '100vh'}} onPointerMove={(evt) => setPosition({
       x: evt.clientX,
-      y: evt.clientY
+      y: evt.clientY,
     })}>
       <div style={{
         position: 'absolute', 

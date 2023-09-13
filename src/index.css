@@ -15,3 +15,8 @@ code {
 .avatar img {
   border-radius: 50%;
 }
+
+.flex {
+  display: flex;
+  
+}

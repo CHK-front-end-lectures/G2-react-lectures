@@ -14,7 +14,9 @@ import './App.css';
 // import Slider from './06-09-2023/Slider';
 // import MovingDots from './11-09-2023/MovingDots';
 // import ObjectForm from './11-09-2023/ObjectForm';
-import List from './11-09-2023/List';
+import List from './13-09-2023/List';
+import ShapeEditor from './13-09-2023/ShapeEditor';
+import ProductList from './13-09-2023/ProductList';
 
 function App() {
   return (
@@ -41,7 +43,10 @@ function App() {
 
       {/* <MovingDots /> */}
       {/* <ObjectForm /> */}
-      <List />
+      {/* <List /> */}
+
+      {/* <ShapeEditor /> */}
+      <ProductList />
 
     </div>
   );

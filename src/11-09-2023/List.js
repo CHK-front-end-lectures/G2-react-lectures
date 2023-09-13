@@ -14,9 +14,9 @@ const List = () => {
         name: name
       }])}>Add</button>
       <ul>
-        {list.map((item) => {
+        {list.map((item, index) => {
           return (
-            <li key={item.id}>{item.id}: {item.name}</li>
+            <li key={index}>{item.id}: {item.name}</li>
           )
         })}
       </ul>
