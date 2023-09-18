@@ -21,7 +21,7 @@ let initialProducts = [
 const ProductList = () => {
   const [products, setProducts] = useState(initialProducts);
 
-  const handleIncreaseClick = (id = 1) => {
+  const handleIncreaseClick = (id) => {
     const nextProducts = products.map((product) => {
       if(product.id === id) {
         return {
@@ -34,6 +34,21 @@ const ProductList = () => {
     })
 
     setProducts(nextProducts);
+  }
+
+  const handleDecreaseClick = (id) => {
+    const nextProducts = products.map((product) => {
+      if(product.id === id) {
+        return {
+          ...product,
+          count: product.count - 1
+        };
+      } else {
+        return product;
+      }
+    })
+
+    setProducts(nextProducts.filter((product) => product.count !== 0))
   }
 
   return (

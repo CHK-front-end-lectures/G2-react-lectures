@@ -20,3 +20,12 @@ code {
   display: flex;
   
 }
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.card {
+  border: 1px solid #ccc;
+}

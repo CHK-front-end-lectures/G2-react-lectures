@@ -17,6 +17,8 @@ import './App.css';
 import List from './13-09-2023/List';
 import ShapeEditor from './13-09-2023/ShapeEditor';
 import ProductList from './13-09-2023/ProductList';
+import SearchableList, { Search, SEarchBar, Component } from './18-09-2023/SearchableList';
+import TodoApp from './18-09-2023/TodoApp';
 
 function App() {
   return (
@@ -46,7 +48,11 @@ function App() {
       {/* <List /> */}
 
       {/* <ShapeEditor /> */}
-      <ProductList />
+      {/* <ProductList /> */}
+
+      {/* <SearchableList /> */}
+
+      <TodoApp />
 
     </div>
   );
