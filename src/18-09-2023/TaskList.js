@@ -14,7 +14,7 @@ const TaskList = ({todos, onChange, onDelete}) => {
 }
 
 export const Task = ({todo, onChange, onDelete}) => {
-  const [isEditing, setIsEditing] = useState(false); // true // false
+  const [isEditing, setIsEditing] = useState(false);
   let toDoContent;
 
   if(isEditing) { // true // false

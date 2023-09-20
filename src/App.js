@@ -19,6 +19,8 @@ import ShapeEditor from './13-09-2023/ShapeEditor';
 import ProductList from './13-09-2023/ProductList';
 import SearchableList, { Search, SEarchBar, Component } from './18-09-2023/SearchableList';
 import TodoApp from './18-09-2023/TodoApp';
+import Punetoret from './20-09-2023/Punetoret';
+import Scoreboard from './20-09-2023/Scoreboard';
 
 function App() {
   return (
@@ -52,8 +54,10 @@ function App() {
 
       {/* <SearchableList /> */}
 
-      <TodoApp />
+      {/* <TodoApp /> */}
 
+      {/* <Punetoret /> */}
+      <Scoreboard />
     </div>
   );
 }
