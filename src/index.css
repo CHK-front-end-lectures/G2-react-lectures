@@ -50,3 +50,19 @@ code {
 .container {
   padding: 24px;
 }
+
+.form {
+  width: 800px;
+  margin: 0 auto;
+  display: block;
+}
+
+.form label {
+  display: flex;
+  width: 60%;
+  flex-direction: column;
+}
+
+.form label input {
+  width: 100%;
+}
